@@ -45,4 +45,4 @@ jobs:
         env:
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-        run: npx surge --project ./build --domain <<<TUDOMINIO_PREPRODUCCION>>>
+        run: npx surge --project ./build --domain languid-boats.surge.sh
